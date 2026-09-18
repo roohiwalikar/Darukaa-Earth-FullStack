@@ -1,0 +1,7 @@
+{
+  "name":"darukaa-earth-fullstack","private":true,"version":"1.0.0","type":"module",
+  "scripts":{"dev":"vite","build":"vite build","lint":"eslint .","format":"prettier --write .","format:check":"prettier --check .","prepare":"husky"},
+  "lint-staged":{"*.{js,jsx,css,md,json}":["prettier --write"],"*.{js,jsx}":["eslint --fix"]},
+  "dependencies":{"chart.js":"^4.4.4","react":"^18.3.1","react-chartjs-2":"^5.2.0","react-dom":"^18.3.1","react-leaflet":"^4.2.1","leaflet":"^1.9.4"},
+  "devDependencies":{"@vitejs/plugin-react":"^4.3.1","eslint":"^9.10.0","prettier":"^3.3.3","husky":"^9.1.6","lint-staged":"^15.2.10","vite":"^5.4.8"}
+}
